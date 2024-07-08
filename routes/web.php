@@ -31,3 +31,6 @@ Route::get('/produc', function () {
 Route::get('/user', function () {
     return view('user.index');
 });
+Route::get('/login', function () {
+    return view('login');
+});

@@ -23,9 +23,12 @@
             </ul>
         </div>
     </div>
-    <div>
-        {{$slot}}
+    @isset($title)
+    <div class="text-2xl font-bold py-3">
+        <h1>{{$title}}</h1>     
     </div>
+    @endisset
+    {{$slot}}
 </body>
 
 </html>
