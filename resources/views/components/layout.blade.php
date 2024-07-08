@@ -19,6 +19,7 @@
                 <li><a href="/categoris">Categoris</a></li>
                 <li><a href="/produc">produc</a></li>
                 <li><a href="/user">User</a></li>
+                <li><a href="/login">Login</a></li>
             </ul>
         </div>
     </div>
