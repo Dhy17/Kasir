@@ -34,3 +34,9 @@ Route::get('/user', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/categoris/create', function () {
+    return view('categoris.create');
+});
+Route::get('/categoris/edit', function () {
+    return view('categoris.edit');
+});

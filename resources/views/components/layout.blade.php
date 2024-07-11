@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="min-h-screen bg-black">
+<body class="min-h-screen">
     <div class="navbar bg-base-100">
         <div class="flex">
             <a class="btn btn-ghost text-2xl">UHUY</a>
@@ -24,11 +24,11 @@
         </div>
     </div>
     @isset($title)
-    <div class="text-2xl font-bold py-3">
-        <h1>{{$title}}</h1>     
-    </div>
+        <div class="text-2xl font-bold py-3">
+            <h1>{{ $title }}</h1>
+        </div>
     @endisset
-    {{$slot}}
+    {{ $slot }}
 </body>
 
 </html>
